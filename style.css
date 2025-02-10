@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: #ffbef5;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.wrapper {
+
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    border: 3px solid #ffbef5;
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+.result p {
+    font-size: 23px;
+}
+
+.result__past {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.result__past p {
+    color: grey;
+    user-select: none;
+}
+
+/* Кнопки */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.buttons button {
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #ffbef5;
+    background: transparent;
+    font-size: 23px;
+    user-select: none;
+}
+
+.buttons button:hover {
+    background: #ffbef5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.all_clear {
+    grid-row: 4;
+    grid-column: 3 / 5;
+}
+
+.plus {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.minus {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.equals {
+    grid-row: 3;
+    grid-column: 4;
+}
