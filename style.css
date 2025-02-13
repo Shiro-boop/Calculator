@@ -73,7 +73,7 @@ main {
 
 .all_clear {
     grid-row: 4;
-    grid-column: 3 / 5;
+    grid-column: 2 / 3;
 }
 
 .plus {
@@ -90,3 +90,14 @@ main {
     grid-row: 3;
     grid-column: 4;
 }
+
+/* Theme */
+
+.dark__theme {
+
+}
+
+.light__theme {
+    display: none;
+}
+
